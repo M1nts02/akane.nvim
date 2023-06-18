@@ -1,10 +1,10 @@
 return {
   bg = '#2b2d3a',
-  fg = '#fafafa',
+  fg = '#C9BBBB',
 
   line = '#333648',
   line_nr = '#848089',
-  cursor_line_nr = '#fafafa',
+  cursor_line_nr = '#C9BBBB',
 
   cyan = '#00ffff',
   blue = '#87cefa',

@@ -3,8 +3,8 @@ return {
   fg = '#C9BBBB',
 
   line = '#333648',
-  line_nr = '#848089',
-  cursor_line_nr = '#C9BBBB',
+  line_nr = '#55b4d4',
+  cursor_line_nr = '#1e90ff',
 
   cyan = '#00ffff',
   blue = '#87cefa',

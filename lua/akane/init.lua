@@ -51,11 +51,11 @@ local set_groups_hl = function ()
     Pmenu        = { fg = palette.fg,     bg = palette.line },
     PmenuSel     = { fg = palette.bg,     bg = palette.line_nr },
     Search       = { fg = palette.bg,     bg = palette.line_nr },
-    CurSearch    = { fg = palette.bg,     bg = palette.purple },
+    CurSearch    = { fg = palette.bg,     bg = palette.cursor_line_nr },
     IncSearch    = { fg = palette.orange, bg = palette.line_nr },
 
     Question     = { fg = palette.green },
-    SpecialKey   = { fg = palette.pink },
+    SpecialKey   = { fg = palette.line_nr },
     SpellCap     = { sp = palette.cyan,        undercurl = true },
     SpellLocal   = { sp = palette.orange,      undercurl = true },
     SpellBad     = { sp = palette.red,         undercurl = true },

@@ -264,6 +264,9 @@ local set_groups_hl = function ()
     DapUIBreakpointsInfo        = { fg = palette.grey },
     DapUIBreakpointsCurrentLine = { fg = palette.grey, bg = palette.line, bold = true },
 
+    -- mini.nvim
+    MiniIndentscopeSymbol = { fg = palette.blue },
+
     -- Hydra
     HydraRed       = { fg = palette.red },
     HydraBlue      = { fg = palette.blue },

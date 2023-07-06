@@ -225,8 +225,8 @@ local set_groups_hl = function ()
     HopUnmatched  = { fg = palette.grey },
 
     -- Leap.
-    LeapMatch           = { fg = palette.green, underline = true },
-    LeapLabelPrimary    = { fg = palette.bg,    bg = palette.indian_red },
+    LeapMatch           = { fg = palette.bg,    bg = palette.purple },
+    LeapLabelPrimary    = { fg = palette.bg,    bg = palette.blue },
     LeapLabelSecondary  = { fg = palette.bg,    bg = palette.cyan },
     LeapLabelSelected   = { fg = palette.bg,    bg = palette.pink },
 

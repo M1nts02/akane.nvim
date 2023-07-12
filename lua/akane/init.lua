@@ -113,6 +113,8 @@ local set_groups_hl = function ()
     ['@tag.attribute']    = { fg = palette.cyan },
     ['@tag.delimiter']    = { link = 'Delimiter' },
     ['@variable']         = { fg = palette.yellow },
+    TreesitterContext = { bg = palette.line },
+    TreesitterContextLineNumber = { fg = palette.pink, bg = palette.line },
 
     -- SemanticToken
     LspNamespace      = { fg = palette.cursor_line_nr },

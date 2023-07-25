@@ -205,6 +205,9 @@ local set_groups_hl = function ()
     NeogitDiffAddHighlight      = { fg = palette.fg,   bg = palette.green },
     NeogitDiffDeleteHighlight   = { fg = palette.fg,   bg = palette.indian_red },
 
+    -- NeoTree
+    NeoTreeFloatBorder = { bg = palette.bg },
+
     -- Hop.
     HopNextKey    = { fg = palette.orange, bold = true, underline = true },
     HopNextKey1   = { fg = palette.cyan,   bold = true, underline = true },

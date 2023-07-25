@@ -26,7 +26,7 @@ local set_groups_hl = function ()
   local groups = {
     -- Base.
     Normal       = { fg = palette.fg,             bg = palette.bg },
-    NormalFloat  = {                              bg = palette.bg },
+    NormalFloat  = {                              bg = palette.line },
     FloatBorder  = { fg = palette.grey },
     FloatTitle   = { fg = palette.fg },
     ColorColumn  = {                              bg = palette.line },

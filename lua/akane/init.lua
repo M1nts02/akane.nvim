@@ -153,7 +153,7 @@ local set_groups_hl = function ()
     -- Cmp.
     CmpItemAbbrMatch          = { bg = palette.bg, fg = palette.cyan },
     CmpItemAbbrMatchFuzzy     = { bg = palette.bg, fg = palette.indian_red },
-    CmpItemMenu               = { bg = palette.bg, fg = palette.grey },
+    CmpItemMenu               = { bg = palette.bg, fg = palette.cyan, italic = true },
     CmpItemAbbr               = { bg = palette.bg, fg = palette.blue },
     CmpItemAbbrDeprecated     = { bg = palette.bg, fg = palette.blue },
     CmpItemKind               = { bg = palette.bg, fg = palette.blue },

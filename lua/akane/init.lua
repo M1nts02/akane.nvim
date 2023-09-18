@@ -191,6 +191,7 @@ local set_groups_hl = function ()
     -- Noice
     NoiceLspProgressTitle =  { fg = palette.fg },
     NoiceLspProgressClient = { fg = palette.yellow },
+    NoiceMini = { fg = palette.grey, bg = palette.bg },
 
     -- WhichKey.
     WhichKeyFloat = { bg = palette.bg },

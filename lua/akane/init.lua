@@ -269,6 +269,10 @@ local set_groups_hl = function()
     DashboardHeader = { fg = palette.line_nr },
     DashboardFooter = { fg = palette.grey },
 
+    -- Fidget.nvim
+    Fidgettitle = { fg = palette.blue, bg = palette.bg },
+    Fidgettask = { fg = palette.grey, bg = palette.bg },
+
     -- Visual Multi.
     VM_Extend = { bg = palette.line },
     VM_Cursor = { bg = palette.line, sp = palette.fg, underline = true },

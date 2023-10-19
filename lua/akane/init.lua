@@ -208,7 +208,7 @@ local set_groups_hl = function()
 
     -- NeoTree
     NeoTreeFloatBorder = { bg = palette.bg },
-    NeoTreeGitIgnored = { bg = palette.grey },
+    NeoTreeGitIgnored = { fg = palette.grey },
 
     -- Hop.
     HopNextKey = { fg = palette.orange, bold = true, underline = true },

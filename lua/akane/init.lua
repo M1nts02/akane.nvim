@@ -1,4 +1,4 @@
-local M = {}
+local M = {}ini
 local palette = {}
 
 local set_terminal_hl = function()
@@ -203,8 +203,8 @@ local set_groups_hl = function()
     NeogitDiffContextHighlight = { bg = palette.line },
     NeogitHunkHeader = { fg = palette.pink },
     NeogitHunkHeaderHighlight = { fg = palette.pink, bg = palette.line },
-    NeogitDiffAddHighlight = { fg = palette.line, bg = palette.green },
-    NeogitDiffDeleteHighlight = { fg = palette.line, bg = palette.indian_red },
+    NeogitDiffAddHighlight = { fg = palette.bg, bg = palette.green },
+    NeogitDiffDeleteHighlight = { fg = palette.bg, bg = palette.indian_red },
     NeogitDiffAdd = { fg = palette.green, bg = palette.bg },
     NeogitDiffDelete = { fg = palette.indian_red, bg = palette.bg },
 

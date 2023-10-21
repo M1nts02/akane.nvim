@@ -1,4 +1,4 @@
-local M = {}ini
+local M = {}
 local palette = {}
 
 local set_terminal_hl = function()

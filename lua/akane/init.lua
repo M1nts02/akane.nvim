@@ -207,6 +207,8 @@ local set_groups_hl = function()
     NeogitDiffDeleteHighlight = { fg = palette.bg, bg = palette.indian_red },
     NeogitDiffAdd = { fg = palette.green, bg = palette.bg },
     NeogitDiffDelete = { fg = palette.indian_red, bg = palette.bg },
+    NeogitDiffContext = { fg = palette.grey, bg = palette.bg },
+    NeogitDiffHeader = { fg = palette.grey, bg = palette.bg },
 
     -- NeoTree
     NeoTreeFloatBorder = { bg = palette.bg },

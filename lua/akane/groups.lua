@@ -78,6 +78,22 @@ M.set_groups_hl = function(palette)
     DiffDelete = { fg = palette.indian_red },
     DiffText = { fg = palette.dark_purple },
 
+    -- LSP
+    DiagnosticError = { fg = palette.red },
+    DiagnosticWarn = { fg = palette.orange },
+    DiagnosticInfo = { fg = palette.line_nr },
+    DiagnosticHint = { fg = palette.grey },
+    DiagnosticVirtualTextError = { fg = palette.red },
+    DiagnosticVirtualTextWarn = { fg = palette.orange },
+    DiagnosticUnderlineError = { fg = palette.red, bold = true, undercurl = true },
+    DiagnosticUnderlineWarn = { underline = true },
+    DiagnosticUnderlineHint = { fg = palette.grey, italic = true },
+    DiagnosticSignError = { fg = palette.red },
+    DiagnosticSignWarn = { fg = palette.orange },
+    DiagnosticSignInfo = { fg = palette.line_nr },
+    DiagnosticSignHint = { fg = palette.grey },
+    DiagnosticDeprecated = { fg = palette.grey, undercurl = true },
+
     -- Markdown.
     markdownCode = { fg = palette.green },
 

@@ -149,10 +149,10 @@ M.set_groups_hl = function(palette)
     TelescopeSelectionCaret = { fg = palette.indian_red },
 
     -- Cmp.
-    CmpItemAbbrDeprecated = { fg = palette.grey, bg = "NONE", strikethrough = true },
-    CmpItemAbbrMatch = { fg = palette.blue, bg = "NONE", bold = true },
-    CmpItemAbbrMatchFuzzy = { fg = palette.blue, bg = "NONE", bold = true },
-    CmpItemMenu = { fg = palette.purple, bg = "NONE", italic = true },
+    CmpItemAbbrDeprecated = { fg = palette.grey, bg = palette.bg },
+    CmpItemAbbrMatch = { fg = palette.blue, bg = palette.bg },
+    CmpItemAbbrMatchFuzzy = { fg = palette.blue, bg = palette.bg },
+    CmpItemMenu = { fg = palette.purple, bg = palette.bg },
 
     CmpItemKindField = { fg = palette.bg, bg = palette.indian_red },
     CmpItemKindProperty = { fg = palette.bg, bg = palette.indian_red },

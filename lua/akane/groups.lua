@@ -29,6 +29,8 @@ M.set_groups_hl = function(palette)
 
     Pmenu = { fg = palette.line_nr, bg = palette.bg },
     PmenuSel = { fg = "NONE", bg = palette.line },
+    PmenuSbar = { fg = palette.bg, bg = palette.bg },
+    PmenuThumb = { fg = palette.bg, bg = palette.bg },
 
     Search = { fg = palette.bg, bg = palette.line_nr },
     CurSearch = { fg = palette.bg, bg = palette.purple },

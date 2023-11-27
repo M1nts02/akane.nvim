@@ -1,4 +1,4 @@
-local palette = require("akane.paleete")["light"]
+local palette = require("akane.palette")["light"]
 palette.bg = vim.o.background == "light" and "#fafafa" or "#2b2d3a"
 
 return {

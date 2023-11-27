@@ -11,7 +11,7 @@ M.load = function(theme)
   vim.o.termguicolors = true
   vim.g.colors_name = "akane"
 
-  palette = require("akane.paleete")[theme]
+  palette = require("akane.palette")[theme]
 
   require("akane.terminal").set_terminal_hl(palette)
   require("akane.groups").set_groups_hl(palette)

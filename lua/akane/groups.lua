@@ -27,8 +27,9 @@ M.set_groups_hl = function(palette)
     MoreMsg = { fg = palette.green },
     NonText = { fg = palette.grey },
 
-    Pmenu = { fg = palette.fg, bg = palette.line },
-    PmenuSel = { fg = palette.cursor_line_nr, bg = palette.line },
+    Pmenu = { fg = palette.line_nr, bg = palette.bg },
+    PmenuSel = { fg = "NONE", bg = palette.line },
+
     Search = { fg = palette.bg, bg = palette.line_nr },
     CurSearch = { fg = palette.bg, bg = palette.purple },
     IncSearch = { fg = palette.orange, bg = palette.line_nr },
@@ -149,10 +150,10 @@ M.set_groups_hl = function(palette)
     TelescopeSelectionCaret = { fg = palette.indian_red },
 
     -- Cmp.
-    CmpItemAbbrDeprecated = { fg = palette.grey, bg = palette.bg },
-    CmpItemAbbrMatch = { fg = palette.blue, bg = palette.bg },
-    CmpItemAbbrMatchFuzzy = { fg = palette.blue, bg = palette.bg },
-    CmpItemMenu = { fg = palette.purple, bg = palette.bg },
+    CmpItemAbbrDeprecated = { fg = palette.grey, bg = "NONE", strikethrough = true },
+    CmpItemAbbrMatch = { fg = palette.blue, bg = "NONE", bold = true },
+    CmpItemAbbrMatchFuzzy = { fg = palette.blue, bg = "NONE", bold = true },
+    CmpItemMenu = { fg = palette.purple, bg = "NONE", italic = true },
 
     CmpItemKindField = { fg = palette.bg, bg = palette.indian_red },
     CmpItemKindProperty = { fg = palette.bg, bg = palette.indian_red },

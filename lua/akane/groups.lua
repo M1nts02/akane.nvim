@@ -49,7 +49,7 @@ M.set_groups_hl = function(palette)
     TabLineFill = { fg = palette.fg },
     TabLineSel = { fg = palette.fg, bg = palette.bg },
     Title = { fg = palette.orange },
-    Visual = { fg = palette.black, bg = palette.light_pink },
+    Visual = { fg = palette.black, bg = palette.light_green },
     WarningMsg = { fg = palette.orange },
 
     comment = { fg = palette.grey, italic = true },

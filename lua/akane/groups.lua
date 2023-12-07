@@ -217,9 +217,13 @@ M.set_groups_hl = function(palette)
     NeogitDiffContext = { fg = palette.grey, bg = palette.bg },
     NeogitDiffHeader = { fg = palette.grey, bg = palette.bg },
 
-    -- NeoTree
+    -- NeoTree.
     NeoTreeFloatBorder = { bg = palette.bg },
     NeoTreeGitIgnored = { fg = palette.grey },
+
+    -- NvimTree.
+    NvimTreeSignColumn = { link = "Normal" },
+    NvimTreeNormalFloat = { link = "Normal" },
 
     -- Hop.
     HopNextKey = { fg = palette.orange, bold = true, underline = true },

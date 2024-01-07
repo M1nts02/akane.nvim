@@ -280,6 +280,7 @@ M.set_groups_hl = function(palette)
     HydraAmaranth = { fg = palette.green },
     HydraTeal = { fg = palette.cyan },
     HydraPink = { fg = palette.pink },
+    HydraBorder = { link = "NormalFloat" },
 
     -- Dashboard-nvim.
     DashboardHeader = { fg = palette.line_nr },

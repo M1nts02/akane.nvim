@@ -32,7 +32,7 @@ M.set_groups_hl = function(palette)
     NormalNC = { fg = fg, bg = transparent(bg) },
     NormalFloat = { bg = transparent(bg) },
     FloatBorder = { fg = grey, bg = transparent(bg) },
-    FloatTitle = { fg = fg, bg = bg },
+    FloatTitle = { fg = fg, bg = transparent(bg) },
     ColorColumn = { bg = line },
     Cursor = { fg = bg, bg = fg },
     CursorColumn = { bg = line },
@@ -306,7 +306,8 @@ M.set_groups_hl = function(palette)
     HydraAmaranth = { fg = green },
     HydraTeal = { fg = cyan },
     HydraPink = { fg = pink },
-    HydraBorder = { fg = fg, bg = bg },
+    HydraHint = {fg = fg, bg = transparent(bg)},
+    HydraBorder = { fg = fg, bg = transparent(bg) },
 
     -- Dashboard-nvim.
     DashboardHeader = { fg = line_nr },

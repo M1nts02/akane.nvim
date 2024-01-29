@@ -32,7 +32,7 @@ M.set_groups_hl = function(palette)
     NormalNC = { fg = fg, bg = transparent(bg) },
     NormalFloat = { bg = line },
     FloatBorder = { fg = grey, bg = bg },
-    FloatTitle = { fg = fg, bg = transparent(bg) },
+    FloatTitle = { fg = fg, bg = bg },
     ColorColumn = { bg = line },
     Cursor = { fg = bg, bg = fg },
     CursorColumn = { bg = line },

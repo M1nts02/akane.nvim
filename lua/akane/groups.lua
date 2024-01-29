@@ -30,8 +30,8 @@ M.set_groups_hl = function(palette)
     -- Base.
     Normal = { fg = fg, bg = transparent(bg) },
     NormalNC = { fg = fg, bg = transparent(bg) },
-    NormalFloat = { bg = line },
-    FloatBorder = { fg = grey, bg = bg },
+    NormalFloat = { bg = transparent(bg) },
+    FloatBorder = { fg = grey, bg = transparent(bg) },
     FloatTitle = { fg = fg, bg = bg },
     ColorColumn = { bg = line },
     Cursor = { fg = bg, bg = fg },
@@ -52,10 +52,10 @@ M.set_groups_hl = function(palette)
     MoreMsg = { fg = green },
     NonText = { fg = grey },
 
-    Pmenu = { fg = line_nr, bg = bg },
+    Pmenu = { fg = line_nr, bg = transparent(bg) },
     PmenuSel = { fg = "NONE", bg = line },
-    PmenuSbar = { fg = bg, bg = bg },
-    PmenuThumb = { fg = bg, bg = bg },
+    PmenuSbar = { fg = bg, bg = transparent(bg) },
+    PmenuThumb = { fg = bg, bg = transparent(bg) },
 
     Search = { fg = bg, bg = line_nr },
     CurSearch = { fg = bg, bg = purple },
@@ -165,11 +165,11 @@ M.set_groups_hl = function(palette)
     GitSignsChange = { fg = indian_red },
 
     -- Telescope.
-    TelescopeNormal = { fg = grey, bg = bg },
-    TelescopeBorder = { fg = grey, bg = bg },
+    TelescopeNormal = { fg = grey, bg = transparent(bg) },
+    TelescopeBorder = { fg = grey, bg = transparent(bg) },
     TelescopePrompt = { link = "TelescopeNormal" },
     TelescopePromptBorder = { link = "TelescopeBorder" },
-    TelescopePromptPrefix = { fg = blue, bg = bg },
+    TelescopePromptPrefix = { fg = blue, bg = transparent(bg) },
     TelescopeResultsBorder = { link = "TelescopeBorder" },
     TelescopePreviewBorder = { link = "TelescopeBorder" },
     TelescopeMatching = { fg = indian_red, bg = bg },
@@ -224,7 +224,6 @@ M.set_groups_hl = function(palette)
     NoiceLspProgressTitle = { fg = fg },
     NoiceLspProgressClient = { fg = yellow },
     NoiceMini = { fg = grey, bg = transparent(bg) },
-    NoiceCmdlinePopup = { fg = fg, bg = bg },
 
     -- WhichKey.
     WhichKeyFloat = { fg = fg, bg = transparent(bg) },
@@ -237,20 +236,20 @@ M.set_groups_hl = function(palette)
     NeogitDiffContextHighlight = { bg = line },
     NeogitHunkHeader = { fg = pink },
     NeogitHunkHeaderHighlight = { fg = pink, bg = line },
-    NeogitDiffAddHighlight = { fg = bg, bg = green },
-    NeogitDiffDeleteHighlight = { fg = bg, bg = indian_red },
-    NeogitDiffAdd = { fg = green, bg = bg },
-    NeogitDiffDelete = { fg = indian_red, bg = bg },
-    NeogitDiffContext = { fg = grey, bg = bg },
-    NeogitDiffHeader = { fg = grey, bg = bg },
+    NeogitDiffAddHighlight = { fg = line, bg = green },
+    NeogitDiffDeleteHighlight = { fg = line, bg = indian_red },
+    NeogitDiffAdd = { fg = green, bg = transparent(bg) },
+    NeogitDiffDelete = { fg = indian_red, bg = transparent(bg) },
+    NeogitDiffContext = { fg = grey, bg = transparent(bg) },
+    NeogitDiffHeader = { fg = grey, bg = transparent(bg) },
 
     -- NeoTree.
     NeoTreeFloatBorder = { bg = bg },
     NeoTreeGitIgnored = { fg = grey, bg = bg },
 
     -- NvimTree.
-    NvimTreeSignColumn = { fg = fg, bg = bg },
-    NvimTreeNormalFloat = { fg = fg, bg = bg },
+    NvimTreeSignColumn = { fg = fg, bg = transparent(bg) },
+    NvimTreeNormalFloat = { fg = fg, bg = transparent(bg) },
 
     -- Hop.
     HopNextKey = { fg = orange, bold = true, underline = true },

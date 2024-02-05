@@ -34,7 +34,7 @@ M.set_groups_hl = function(palette)
     FloatBorder = { fg = grey, bg = transparent(bg) },
     FloatTitle = { fg = fg, bg = transparent(bg) },
     ColorColumn = { bg = line },
-    Cursor = { fg = bg, bg = fg },
+    Cursor = { fg = line, bg = fg },
     CursorColumn = { bg = line },
     CursorLine = { bg = line },
     CursorLineNr = { fg = cursor_line_nr, bg = line },
@@ -54,11 +54,11 @@ M.set_groups_hl = function(palette)
 
     Pmenu = { fg = line_nr, bg = transparent(bg) },
     PmenuSel = { fg = "NONE", bg = line },
-    PmenuSbar = { fg = bg, bg = transparent(bg) },
-    PmenuThumb = { fg = bg, bg = transparent(bg) },
+    PmenuSbar = { fg = line, bg = transparent(bg) },
+    PmenuThumb = { fg = line, bg = transparent(bg) },
 
-    Search = { fg = bg, bg = line_nr },
-    CurSearch = { fg = bg, bg = purple },
+    Search = { fg = line, bg = line_nr },
+    CurSearch = { fg = line, bg = purple },
     IncSearch = { fg = orange, bg = line_nr },
 
     Question = { fg = green },
@@ -74,7 +74,7 @@ M.set_groups_hl = function(palette)
     TabLineFill = { fg = fg },
     TabLineSel = { fg = fg, bg = transparent(bg) },
     Title = { fg = orange },
-    Visual = { fg = bg, bg = pink },
+    Visual = { fg = line, bg = pink },
     WarningMsg = { fg = orange },
 
     comment = { fg = grey, italic = true },
@@ -182,38 +182,38 @@ M.set_groups_hl = function(palette)
     CmpItemAbbrMatchFuzzy = { fg = blue, bg = "NONE", bold = true },
     CmpItemMenu = { fg = purple, bg = "NONE", italic = true },
 
-    CmpItemKindField = { fg = bg, bg = indian_red },
-    CmpItemKindProperty = { fg = bg, bg = indian_red },
-    CmpItemKindEvent = { fg = bg, bg = indian_red },
+    CmpItemKindField = { fg = line, bg = indian_red },
+    CmpItemKindProperty = { fg = line, bg = indian_red },
+    CmpItemKindEvent = { fg = line, bg = indian_red },
 
-    CmpItemKindText = { fg = bg, bg = green },
-    CmpItemKindEnum = { fg = bg, bg = green },
-    CmpItemKindKeyword = { fg = bg, bg = green },
+    CmpItemKindText = { fg = line, bg = green },
+    CmpItemKindEnum = { fg = line, bg = green },
+    CmpItemKindKeyword = { fg = line, bg = green },
 
-    CmpItemKindConstant = { fg = bg, bg = orange },
-    CmpItemKindConstructor = { fg = bg, bg = orange },
-    CmpItemKindReference = { fg = bg, bg = orange },
+    CmpItemKindConstant = { fg = line, bg = orange },
+    CmpItemKindConstructor = { fg = line, bg = orange },
+    CmpItemKindReference = { fg = line, bg = orange },
 
-    CmpItemKindFunction = { fg = bg, bg = purple },
-    CmpItemKindStruct = { fg = bg, bg = purple },
-    CmpItemKindClass = { fg = bg, bg = purple },
-    CmpItemKindModule = { fg = bg, bg = purple },
-    CmpItemKindOperator = { fg = bg, bg = purple },
+    CmpItemKindFunction = { fg = line, bg = purple },
+    CmpItemKindStruct = { fg = line, bg = purple },
+    CmpItemKindClass = { fg = line, bg = purple },
+    CmpItemKindModule = { fg = line, bg = purple },
+    CmpItemKindOperator = { fg = line, bg = purple },
 
-    CmpItemKindVariable = { fg = bg, bg = fg },
-    CmpItemKindFile = { fg = bg, bg = fg },
+    CmpItemKindVariable = { fg = line, bg = fg },
+    CmpItemKindFile = { fg = line, bg = fg },
 
-    CmpItemKindUnit = { fg = bg, bg = yellow },
-    CmpItemKindSnippet = { fg = bg, bg = yellow },
-    CmpItemKindFolder = { fg = bg, bg = yellow },
+    CmpItemKindUnit = { fg = line, bg = yellow },
+    CmpItemKindSnippet = { fg = line, bg = yellow },
+    CmpItemKindFolder = { fg = line, bg = yellow },
 
-    CmpItemKindMethod = { fg = bg, bg = blue },
-    CmpItemKindValue = { fg = bg, bg = blue },
-    CmpItemKindEnumMember = { fg = bg, bg = blue },
+    CmpItemKindMethod = { fg = line, bg = blue },
+    CmpItemKindValue = { fg = line, bg = blue },
+    CmpItemKindEnumMember = { fg = line, bg = blue },
 
-    CmpItemKindInterface = { fg = bg, bg = cyan },
-    CmpItemKindColor = { fg = bg, bg = cyan },
-    CmpItemKindTypeParameter = { fg = bg, bg = cyan },
+    CmpItemKindInterface = { fg = line, bg = cyan },
+    CmpItemKindColor = { fg = line, bg = cyan },
+    CmpItemKindTypeParameter = { fg = line, bg = cyan },
 
     -- Word under cursor.
     CursorWord = { bg = blue },
@@ -258,10 +258,10 @@ M.set_groups_hl = function(palette)
     HopUnmatched = { fg = grey },
 
     -- Leap.
-    LeapMatch = { fg = bg, bg = purple },
-    LeapLabelPrimary = { fg = bg, bg = blue },
-    LeapLabelSecondary = { fg = bg, bg = cyan },
-    LeapLabelSelected = { fg = bg, bg = pink },
+    LeapMatch = { fg = line, bg = purple },
+    LeapLabelPrimary = { fg = line, bg = blue },
+    LeapLabelSecondary = { fg = line, bg = cyan },
+    LeapLabelSelected = { fg = line, bg = pink },
 
     -- LSP Signature.
     LspSignatureActiveParameter = { italic = true },
@@ -306,7 +306,7 @@ M.set_groups_hl = function(palette)
     HydraAmaranth = { fg = green },
     HydraTeal = { fg = cyan },
     HydraPink = { fg = pink },
-    HydraHint = {fg = fg, bg = transparent(bg)},
+    HydraHint = { fg = fg, bg = transparent(bg) },
     HydraBorder = { fg = fg, bg = transparent(bg) },
 
     -- Dashboard-nvim.
@@ -321,7 +321,7 @@ M.set_groups_hl = function(palette)
     VM_Extend = { bg = line },
     VM_Cursor = { bg = line, sp = fg, underline = true },
     VM_Insert = { sp = fg, underline = true },
-    VM_Mono = { fg = bg, bg = grey },
+    VM_Mono = { fg = line, bg = grey },
   }
 
   for group, parameters in pairs(groups) do

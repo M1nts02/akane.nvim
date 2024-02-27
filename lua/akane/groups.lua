@@ -233,6 +233,7 @@ M.set_groups_hl = function(palette)
     IndentBlanklineContextChar = { fg = grey },
 
     -- Neogit.
+    NeogitChangeDeleted = { fg = grey, bg = transparent(bg) },
     NeogitDiffContextHighlight = { bg = line },
     NeogitHunkHeader = { fg = pink },
     NeogitHunkHeaderHighlight = { fg = pink, bg = line },

@@ -318,6 +318,13 @@ M.set_groups_hl = function(palette)
     Fidgettitle = { fg = blue, bg = transparent(bg) },
     Fidgettask = { fg = grey, bg = transparent(bg) },
 
+    -- Fzf-lua
+    FzfLuaHeaderBind = { fg = grey, bg = transparent(bg) },
+    FzfLuaHeaderText = { fg = grey, bg = transparent(bg) },
+    FzfLuaBufNr = { fg = indian_red, bg = transparent(bg) },
+    FzfLuaBufLineNr = { fg = green, bg = transparent(bg) },
+    FzfLuaBufName = { fg = blue, bg = transparent(bg) },
+
     -- Visual Multi.
     VM_Extend = { bg = line },
     VM_Cursor = { bg = line, sp = fg, underline = true },

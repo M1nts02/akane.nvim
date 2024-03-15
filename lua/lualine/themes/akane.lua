@@ -3,7 +3,7 @@ local palette = require("akane.palette")["light"]
 if vim.api.nvim_get_hl(0, { name = "Normal", id = 0 }).bg == nil then
   palette.bg = "None"
 else
-  palette.bg = vim.o.background == "light" and "#fafafa" or "#2b2d3a"
+  palette.bg = vim.o.background == "light" and "#fafafa" or "#1E1E2E"
 end
 
 return {

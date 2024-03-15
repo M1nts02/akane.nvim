@@ -27,7 +27,7 @@ M.light = {
 }
 
 M.dark = {
-  bg = "#2b2d3a",
+  bg = "#1E1E2E",
   fg = "#D9E0EE",
 
   line = "#333648",

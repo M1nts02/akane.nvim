@@ -27,7 +27,7 @@ M.set_groups_hl = function(palette)
     Normal = { fg = fg, bg = transparent(bg) },
     NormalNC = { fg = fg, bg = transparent(bg) },
     NormalSB = { fg = fg, bg = bg2 },
-    NormalFloat = { bg = transparent(bg) },
+    NormalFloat = { bg = transparent(bg1) },
     FloatBorder = { fg = blue, bg = transparent(bg) },
     FloatTitle = { fg = fg1, bg = transparent(bg) },
     Pmenu = { fg = fg1, bg = bg1 },

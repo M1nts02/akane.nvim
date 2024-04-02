@@ -27,7 +27,7 @@ M.set_groups_hl = function(palette)
     Normal = { fg = fg, bg = transparent(bg) },
     NormalNC = { fg = fg, bg = transparent(bg) },
     NormalSB = { fg = fg, bg = bg2 },
-    NormalFloat = { bg = transparent(bg1) },
+    NormalFloat = { bg = transparent(bg) },
     FloatBorder = { fg = blue, bg = transparent(bg) },
     FloatTitle = { fg = fg1, bg = transparent(bg) },
     Pmenu = { fg = fg1, bg = bg1 },
@@ -81,10 +81,10 @@ M.set_groups_hl = function(palette)
     MsgSeparator = {},
     MoreMsg = { fg = blue },
     NonText = { fg = fg2 },
-    comment = { fg = fg1, italic = true },
+    Comment = { fg = fg1, italic = true },
     SpecialComment = { fg = pink },
-    constant = { fg = orange },
-    string = { fg = green },
+    Constant = { fg = orange },
+    String = { fg = green },
     Character = { fg = cyan },
     Number = { fg = orange },
     Float = { fg = orange },
@@ -226,160 +226,6 @@ M.set_groups_hl = function(palette)
     ["@lsp.typemod.type.defaultLibrary"] = { link = "@type.builtin" },
     ["@lsp.typemod.variable.defaultLibrary"] = { link = "@variable.builtin" },
     ["@lsp.typemod.variable.injected"] = { link = "@variable" },
-
-    -- Gitsigns.
-    GitSignsAddLn = { fg = green },
-    GitSignsDeleteLn = { fg = yellow },
-    GitSignsChange = { fg = indian_red },
-
-    -- Cmp.
-    CmpItemAbbrDeprecated = { fg = fg1, bg = "NONE", strikethrough = true },
-    CmpItemAbbrMatch = { fg = blue, bg = "NONE", bold = true },
-    CmpItemAbbrMatchFuzzy = { fg = blue, bg = "NONE", bold = true },
-    CmpItemMenu = { fg = purple, bg = "NONE", italic = true },
-
-    CmpItemKindField = { fg = bg1, bg = indian_red },
-    CmpItemKindProperty = { fg = bg1, bg = indian_red },
-    CmpItemKindEvent = { fg = bg1, bg = indian_red },
-
-    CmpItemKindText = { fg = bg1, bg = green },
-    CmpItemKindEnum = { fg = bg1, bg = green },
-    CmpItemKindKeyword = { fg = bg1, bg = green },
-
-    CmpItemKindConstant = { fg = bg1, bg = orange },
-    CmpItemKindConstructor = { fg = bg1, bg = orange },
-    CmpItemKindReference = { fg = bg1, bg = orange },
-
-    CmpItemKindFunction = { fg = bg1, bg = purple },
-    CmpItemKindStruct = { fg = bg1, bg = purple },
-    CmpItemKindClass = { fg = bg1, bg = purple },
-    CmpItemKindModule = { fg = bg1, bg = purple },
-    CmpItemKindOperator = { fg = bg1, bg = purple },
-
-    CmpItemKindVariable = { fg = bg1, bg = fg },
-    CmpItemKindFile = { fg = bg1, bg = fg },
-
-    CmpItemKindUnit = { fg = bg1, bg = yellow },
-    CmpItemKindSnippet = { fg = bg1, bg = yellow },
-    CmpItemKindFolder = { fg = bg1, bg = yellow },
-
-    CmpItemKindMethod = { fg = bg1, bg = blue },
-    CmpItemKindValue = { fg = bg1, bg = blue },
-    CmpItemKindEnumMember = { fg = bg1, bg = blue },
-
-    CmpItemKindInterface = { fg = bg1, bg = cyan },
-    CmpItemKindColor = { fg = bg1, bg = cyan },
-    CmpItemKindTypeParameter = { fg = bg1, bg = cyan },
-
-    -- Word under cursor.
-    CursorWord = { bg = blue },
-    CursorWord0 = { bg = blue },
-    CursorWord1 = { bg = blue },
-
-    -- Noice
-    NoiceLspProgressTitle = { fg = fg },
-    NoiceLspProgressClient = { fg = yellow },
-    NoiceMini = { fg = fg1, bg = transparent(bg) },
-
-    -- WhichKey.
-    WhichKeyFloat = { fg = fg, bg = transparent(bg) },
-    WhichKeyBorder = { bg = transparent(bg) },
-
-    -- Indent blankline.
-    IndentBlanklineContextChar = { fg = fg1 },
-
-    -- Neogit.
-    NeogitChangeDeleted = { fg = fg1, bg = transparent(bg) },
-    NeogitDiffContextHighlight = { bg = bg1 },
-    NeogitHunkHeader = { fg = pink },
-    NeogitHunkHeaderHighlight = { fg = pink, bg = bg1 },
-    NeogitDiffAddHighlight = { fg = bg1, bg = green },
-    NeogitDiffDeleteHighlight = { fg = bg1, bg = indian_red },
-    NeogitDiffAdd = { fg = green, bg = transparent(bg) },
-    NeogitDiffDelete = { fg = indian_red, bg = transparent(bg) },
-    NeogitDiffContext = { fg = fg1, bg = transparent(bg) },
-    NeogitDiffHeader = { fg = fg1, bg = transparent(bg) },
-
-    -- NeoTree.
-    NeoTreeFloatBorder = { bg = bg },
-    NeoTreeGitIgnored = { fg = fg1, bg = bg },
-
-    -- NvimTree.
-    NvimTreeSignColumn = { fg = fg, bg = transparent(bg) },
-    NvimTreeNormalFloat = { fg = fg, bg = transparent(bg) },
-
-    -- Hop.
-    HopNextKey = { fg = orange, bold = true, underline = true },
-    HopNextKey1 = { fg = cyan, bold = true, underline = true },
-    HopNextKey2 = { fg = pink },
-    HopUnmatched = { fg = fg1 },
-
-    -- Leap.
-    LeapMatch = { fg = bg1, bg = purple },
-    LeapLabelPrimary = { fg = bg1, bg = blue },
-    LeapLabelSecondary = { fg = bg1, bg = cyan },
-    LeapLabelSelected = { fg = bg1, bg = pink },
-
-    -- LSP Signature.
-    LspSignatureActiveParameter = { italic = true },
-
-    -- Notify.
-    NotifyERROR = { fg = yellow },
-    NotifyWARN = { fg = orange },
-    NotifyINFO = { fg = green },
-    NotifyDEBUG = { fg = fg1 },
-    NotifyTRACE = { fg = indian_red },
-    NotifyERRORTitle = { fg = red },
-    NotifyWARNTitle = { fg = orange },
-    NotifyINFOTitle = { fg = green },
-    NotifyDEBUGTitle = { fg = green },
-    NotifyTRACETitle = { fg = green },
-
-    -- Dap.
-    NvimDapVirtualText = { fg = green },
-
-    -- DAP UI.
-    DapUIScope = { fg = green },
-    DapUIType = { fg = cyan },
-    DapUIDecoration = { fg = blue },
-    DapUIThread = { fg = green },
-    DapUIStoppedThread = { fg = orange },
-    DapUISource = { fg = green },
-    DapUILineNumber = { fg = fg1 },
-    DapUIFloatBorder = { fg = fg1 },
-    DapUIWatchesEmpty = { fg = orange },
-    DapUIWatchesValue = { fg = green },
-    DapUIWatchesError = { fg = red },
-    DapUIBreakpointsPath = { fg = green },
-    DapUIBreakpointsInfo = { fg = fg1 },
-    DapUIBreakpointsCurrentLine = { fg = fg1, bg = bg1, bold = true },
-
-    -- mini.nvim
-    MiniIndentscopeSymbol = { fg = blue },
-
-    -- Hydra
-    HydraRed = { fg = red },
-    HydraBlue = { fg = blue },
-    HydraAmaranth = { fg = green },
-    HydraTeal = { fg = cyan },
-    HydraPink = { fg = pink },
-    HydraHint = { fg = fg, bg = transparent(bg) },
-    HydraBorder = { fg = fg, bg = transparent(bg) },
-
-    -- Dashboard-nvim.
-    DashboardHeader = { fg = cyan },
-    DashboardFooter = { fg = fg1 },
-
-    -- Fidget.nvim
-    Fidgettitle = { fg = blue, bg = transparent(bg) },
-    Fidgettask = { fg = fg1, bg = transparent(bg) },
-
-    -- Fzf-lua
-    FzfLuaHeaderBind = { fg = fg1, bg = transparent(bg) },
-    FzfLuaHeaderText = { fg = fg1, bg = transparent(bg) },
-    FzfLuaBufNr = { fg = indian_red, bg = transparent(bg) },
-    FzfLuaBufLineNr = { fg = green, bg = transparent(bg) },
-    FzfLuaBufName = { fg = blue, bg = transparent(bg) },
   }
 
   for group, parameters in pairs(groups) do

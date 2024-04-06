@@ -117,7 +117,6 @@ M.set_groups_hl = function(palette)
     Italic = { italic = true },
     Ignore = {},
     Error = { fg = red },
-    Todo = { fg = fg, bg = indian_red, bold = true },
     qfLineNr = { fg = yellow },
     qfFileName = { fg = blue },
     htmlH1 = { fg = pink, bold = true },

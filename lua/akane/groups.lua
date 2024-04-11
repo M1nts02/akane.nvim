@@ -71,7 +71,7 @@ M.set_groups_hl = function(palette)
     VertSplit = { fg = blue, bg = transparent(bg) },
     Folded = { fg = blue, bg = transparent(bg1) },
     FoldColumn = { fg = fg2, bg = transparent(bg1) },
-    SignColumn = { fg = fg1, bg = transparent(bg1) },
+    SignColumn = { fg = fg1, bg = transparent(bg) },
     SignColumnSB = { fg = bg2, bg = bg2 },
     Substitute = { fg = pink, bg = fg3 },
     LineNr = { fg = cyan, bg = transparent(bg) },

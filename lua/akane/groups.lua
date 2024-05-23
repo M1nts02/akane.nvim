@@ -30,34 +30,44 @@ M.set_groups_hl = function(palette)
     NormalFloat = { bg = transparent(bg1) },
     FloatBorder = { fg = blue, bg = transparent(bg) },
     FloatTitle = { fg = fg1, bg = transparent(bg) },
+
     Pmenu = { fg = fg1, bg = bg1 },
     PmenuSel = { fg = fg, bg = bg2 },
     PmenuSbar = { fg = fg, bg = bg2 },
     PmenuThumb = { fg = fg1, bg = transparent(bg1) },
+
     Question = { fg = blue },
     QuickFixLine = { fg = fg1, bold = true },
+
     Search = { fg = bg2, bg = blue },
-    IncSearch = { fg = fg1, bg = blue },
+    IncSearch = { fg = bg, bg = blue },
     CurSearch = { fg = bg2, bg = pink },
+
     SpecialKey = { fg = fg2 },
+    SnippetTabstop = { bg = bg2 },
     SpellBad = { sp = red, undercurl = true },
     SpellCap = { sp = yellow, undercurl = true },
     SpellLocal = { sp = blue, undercurl = true },
     SpellRare = { sp = green, undercurl = true },
+
     StatusLine = { fg = fg, bg = transparent(bg1) },
     StatusLineNC = { fg = fg2, bg = transparent(bg1) },
     TabLine = { fg = fg2, bg = transparent(bg1) },
     TabLineFill = {},
     TabLineSel = { fg = green, bg = transparent(bg2) },
+
     Title = { fg = blue, bold = true },
     Visual = { fg = bg, bg = pink },
     VisualNOS = { fg = bg, bg = pink, bold = true },
+
     WarningMsg = { fg = yellow },
     Whitespace = { fg = fg3, bg = transparent(bg) },
     WildMenu = { fg = fg, bg = transparent(bg1) },
+
     WinBar = { fg = orange },
     WinBarNC = { fg = orange },
     WinSeparator = { fg = fg3 },
+
     ColorColumn = { bg = bg1 },
     Conceal = { fg = fg1 },
     Cursor = { fg = bg1, bg = fg },
@@ -65,28 +75,35 @@ M.set_groups_hl = function(palette)
     CursorIM = { fg = bg, bg = fg },
     CursorColumn = { bg = bg1 },
     CursorLine = { bg = bg1 },
+
     Directory = { fg = blue },
     EndOfBuffer = { fg = fg },
     ErrorMsg = { fg = red, bold = true, italic = true },
     VertSplit = { fg = blue, bg = transparent(bg) },
+
     Folded = { fg = blue, bg = transparent(bg1) },
     FoldColumn = { fg = fg2, bg = transparent(bg1) },
+
     SignColumn = { fg = fg1, bg = transparent(bg) },
     SignColumnSB = { fg = bg2, bg = bg2 },
     Substitute = { fg = pink, bg = fg3 },
+
     LineNr = { fg = cyan, bg = transparent(bg) },
     CursorLineNr = { fg = blue, bg = bg2 },
+
     MatchParen = { fg = orange, bg = bg2, bold = true },
     ModeMsg = { fg = fg },
     MsgSeparator = {},
     MoreMsg = { fg = blue },
     NonText = { fg = fg2 },
+
     Comment = { fg = fg1, italic = true },
     SpecialComment = { fg = pink },
     Constant = { fg = orange },
     String = { fg = green },
     Character = { fg = cyan },
     Number = { fg = orange },
+
     Float = { fg = orange },
     Boolean = { fg = orange },
     Identifier = { fg = indian_red },
@@ -112,23 +129,30 @@ M.set_groups_hl = function(palette)
     Tag = { fg = blue, bold = true },
     Delimiter = { fg = fg2 },
     Debug = { fg = pink },
+
     Underlined = { underline = true },
     Bold = { bold = true },
     Italic = { italic = true },
     Ignore = {},
     Error = { fg = red },
+
     qfLineNr = { fg = yellow },
     qfFileName = { fg = blue },
+
     htmlH1 = { fg = pink, bold = true },
     htmlH2 = { fg = blue, bold = true },
+
     mkdCodeDelimiter = { fg = fg, bg = bg },
     mkdCodeStart = { fg = indian_red, bold = true },
     mkdCodeEnd = { fg = indian_red, bold = true },
     mkdLink = { fg = blue, underline = true },
+
     debugPC = { bg = bg2 },
     debugBreakpoint = { fg = fg2, bg = bg },
+
     illuminatedWord = { bg = fg3 },
     illuminatedCurWord = { bg = fg3 },
+
     diffAdded = { fg = green },
     diffRemoved = { fg = red },
     diffanged = { fg = blue },
@@ -141,9 +165,11 @@ M.set_groups_hl = function(palette)
     DiffChange = { fg = bg, bg = blue },
     DiffDelete = { fg = bg, bg = red },
     DiffText = { fg = bg, bg = blue },
+
     healthError = { fg = red },
     healthSuccess = { fg = cyan },
     healthWarning = { fg = yellow },
+
     GlyphPalette1 = { fg = red },
     GlyphPalette2 = { fg = cyan },
     GlyphPalette3 = { fg = yellow },
@@ -151,6 +177,7 @@ M.set_groups_hl = function(palette)
     GlyphPalette6 = { fg = cyan },
     GlyphPalette7 = { fg = fg },
     GlyphPalette9 = { fg = red },
+
     rainbow1 = { fg = red },
     rainbow2 = { fg = orange },
     rainbow3 = { fg = yellow },

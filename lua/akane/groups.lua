@@ -27,7 +27,8 @@ M.set_groups_hl = function(palette)
     Normal = { fg = fg, bg = transparent(bg) },
     NormalNC = { fg = fg, bg = transparent(bg) },
     NormalSB = { fg = fg, bg = bg2 },
-    NormalFloat = { bg = transparent(bg1) },
+    -- NormalFloat = { bg = transparent(bg1) },
+    NormalFloat = { bg = transparent(bg) },
     FloatBorder = { fg = blue, bg = transparent(bg) },
     FloatTitle = { fg = fg1, bg = transparent(bg) },
 
@@ -252,6 +253,151 @@ M.set_groups_hl = function(palette)
     ["@lsp.typemod.type.defaultLibrary"] = { link = "@type.builtin" },
     ["@lsp.typemod.variable.defaultLibrary"] = { link = "@variable.builtin" },
     ["@lsp.typemod.variable.injected"] = { link = "@variable" },
+
+    -- Aerial.nvim
+    AerialLine = { bg = bg1 },
+
+    -- Gitsigns.
+    GitSignsAddLn = { fg = green },
+    GitSignsDeleteLn = { fg = yellow },
+    GitSignsChange = { fg = indian_red },
+
+    -- Cmp.
+    CmpItemAbbrDeprecated = { fg = fg1, bg = "NONE", strikethrough = true },
+    CmpItemAbbrMatch = { fg = blue, bg = "NONE", bold = true },
+    CmpItemAbbrMatchFuzzy = { fg = blue, bg = "NONE", bold = true },
+    CmpItemMenu = { fg = purple, bg = "NONE", italic = true },
+
+    CmpItemKindField = { fg = bg1, bg = indian_red },
+    CmpItemKindProperty = { fg = bg1, bg = indian_red },
+    CmpItemKindEvent = { fg = bg1, bg = indian_red },
+
+    CmpItemKindText = { fg = bg1, bg = green },
+    CmpItemKindEnum = { fg = bg1, bg = green },
+    CmpItemKindKeyword = { fg = bg1, bg = green },
+
+    CmpItemKindConstant = { fg = bg1, bg = orange },
+    CmpItemKindConstructor = { fg = bg1, bg = orange },
+    CmpItemKindReference = { fg = bg1, bg = orange },
+
+    CmpItemKindFunction = { fg = bg1, bg = purple },
+    CmpItemKindStruct = { fg = bg1, bg = purple },
+    CmpItemKindClass = { fg = bg1, bg = purple },
+    CmpItemKindModule = { fg = bg1, bg = purple },
+    CmpItemKindOperator = { fg = bg1, bg = purple },
+
+    CmpItemKindVariable = { fg = bg1, bg = fg },
+    CmpItemKindFile = { fg = bg1, bg = fg },
+
+    CmpItemKindUnit = { fg = bg1, bg = yellow },
+    CmpItemKindSnippet = { fg = bg1, bg = yellow },
+    CmpItemKindFolder = { fg = bg1, bg = yellow },
+
+    CmpItemKindMethod = { fg = bg1, bg = blue },
+    CmpItemKindValue = { fg = bg1, bg = blue },
+    CmpItemKindEnumMember = { fg = bg1, bg = blue },
+
+    CmpItemKindInterface = { fg = bg1, bg = cyan },
+    CmpItemKindColor = { fg = bg1, bg = cyan },
+    CmpItemKindTypeParameter = { fg = bg1, bg = cyan },
+
+    -- Word under cursor.
+    CursorWord = { bg = blue },
+    CursorWord0 = { bg = blue },
+    CursorWord1 = { bg = blue },
+
+    -- WhichKey.
+    WhichKeyFloat = { fg = fg, bg = transparent(bg) },
+    WhichKeyBorder = { bg = transparent(bg) },
+
+    -- Mini.nvim
+    MiniHipatternsFixme = { fg = bg, bg = red },
+    MiniHipatternsHack = { fg = bg, bg = orange },
+    MiniHipatternsTodo = { fg = bg, bg = blue },
+    MiniHipatternsNote = { fg = bg, bg = fg1 },
+
+    -- Neogit.
+    NeogitChangeDeleted = { fg = fg1, bg = transparent(bg) },
+    NeogitDiffContextHighlight = { bg = bg1 },
+    NeogitHunkHeader = { fg = pink },
+    NeogitHunkHeaderHighlight = { fg = pink, bg = bg1 },
+    NeogitDiffAddHighlight = { fg = bg1, bg = green },
+    NeogitDiffDeleteHighlight = { fg = bg1, bg = indian_red },
+    NeogitDiffAdd = { fg = green, bg = transparent(bg) },
+    NeogitDiffDelete = { fg = indian_red, bg = transparent(bg) },
+    NeogitDiffContext = { fg = fg1, bg = transparent(bg) },
+    NeogitDiffHeader = { fg = fg1, bg = transparent(bg) },
+
+    -- NvimTree.
+    NvimTreeSignColumn = { fg = fg, bg = transparent(bg) },
+    NvimTreeNormalFloat = { fg = fg, bg = transparent(bg) },
+
+    -- Dap.
+    NvimDapVirtualText = { fg = fg1 },
+
+    -- DAP UI.
+    DapUIScope = { fg = green },
+    DapUIType = { fg = cyan },
+    DapUIDecoration = { fg = blue },
+    DapUIThread = { fg = green },
+    DapUIStoppedThread = { fg = orange },
+    DapUISource = { fg = green },
+    DapUILineNumber = { fg = fg1 },
+    DapUIFloatBorder = { fg = fg1 },
+    DapUIWatchesEmpty = { fg = orange },
+    DapUIWatchesValue = { fg = green },
+    DapUIWatchesError = { fg = red },
+    DapUIBreakpointsPath = { fg = green },
+    DapUIBreakpointsInfo = { fg = fg1 },
+    DapUIBreakpointsCurrentLine = { fg = fg1, bg = bg1, bold = true },
+
+    -- Dashboard-nvim.
+    DashboardHeader = { fg = cyan },
+    DashboardFooter = { fg = fg1 },
+
+    -- Fzf-lua
+    FzfLuaHeaderBind = { fg = fg1, bg = transparent(bg) },
+    FzfLuaHeaderText = { fg = fg1, bg = transparent(bg) },
+    FzfLuaBufNr = { fg = indian_red, bg = transparent(bg) },
+    FzfLuaBufLineNr = { fg = green, bg = transparent(bg) },
+    FzfLuaBufName = { fg = blue, bg = transparent(bg) },
+
+    -- Telescope
+    TelescopeSelection = { fg = fg, bg = bg1 },
+    TelescopeNormal = { fg = blue, bg = transparent(bg) },
+
+    -- Lazy
+    LazyNormal = { fg = fg, bg = transparent(bg) },
+    LazyH1 = { fg = bg, bg = blue },
+    LazyButtonActive = { fg = bg, bg = blue },
+
+    -- Mason
+    MasonNormal = { fg = fg, bg = transparent(bg) },
+
+    -- Mvim-bqf
+    BqfPreviewRange = { fg = bg, bg = orange },
+
+    -- Nvim-notify
+    NotifyERRORBorder = { fg = fg1, bg = transparent(bg) },
+    NotifyWARNBorde = { fg = fg1, bg = transparent(bg) },
+    NotifyINFOBorder = { fg = fg1, bg = transparent(bg) },
+    NotifyDEBUGBorder = { fg = fg1, bg = transparent(bg) },
+    NotifyTRACEBorder = { fg = fg1, bg = transparent(bg) },
+    NotifyERRORIcon = { fg = red, bg = transparent(bg) },
+    NotifyWARNIcon = { fg = orange, bg = transparent(bg) },
+    NotifyINFOIcon = { fg = green, bg = transparent(bg) },
+    NotifyDEBUGIcon = { fg = blue, bg = transparent(bg) },
+    NotifyTRACEIcon = { fg = blue, bg = transparent(bg) },
+    NotifyERRORTitle = { fg = red, bg = transparent(bg) },
+    NotifyWARNTitle = { fg = orange, bg = transparent(bg) },
+    NotifyINFOTitle = { fg = green, bg = transparent(bg) },
+    NotifyDEBUGTitle = { fg = blue, bg = transparent(bg) },
+    NotifyTRACETitle = { fg = blue, bg = transparent(bg) },
+    NotifyERRORBody = { fg = fg1, bg = transparent(bg) },
+    NotifyWARNBody = { fg = fg1, bg = transparent(bg) },
+    NotifyINFOBody = { fg = fg1, bg = transparent(bg) },
+    NotifyDEBUGBody = { fg = fg1, bg = transparent(bg) },
+    NotifyTRACEBody = { fg = fg1, bg = transparent(bg) },
   }
 
   for group, parameters in pairs(groups) do

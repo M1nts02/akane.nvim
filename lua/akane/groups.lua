@@ -304,6 +304,8 @@ M.set_groups_hl = function(palette)
     -- Blink.cmp
     BlinkCmpMenu = { fg = fg1, bg = bg },
     BlinkCmpMenuBorder = { fg = blue, bg = bg },
+    BlinkCmpDocBorder = { fg = blue, bg = bg },
+    BlinkCmpSignatureHelpBorder = { fg = blue, bg = bg },
     BlinkCmpMenuSelection = { fg = blue, bg = bg1, bold = true },
 
     BlinkCmpLabelMatch = { fg = blue, bg = "NONE" },
@@ -338,6 +340,7 @@ M.set_groups_hl = function(palette)
     BlinkCmpKindInterface = { fg = bg, bg = cyan },
     BlinkCmpKindColor = { fg = bg, bg = cyan },
     BlinkCmpKindTypeParameter = { fg = bg, bg = cyan },
+    BlinkCmpKindFittenCode = { fg = bg, bg = blue },
 
     -- Word under cursor.
     CursorWord = { bg = blue },

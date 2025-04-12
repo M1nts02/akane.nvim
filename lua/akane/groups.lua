@@ -302,10 +302,10 @@ M.set_groups_hl = function(palette)
     CmpItemKindTypeParameter = { fg = bg1, bg = cyan },
 
     -- Blink.cmp
-    BlinkCmpMenu = { fg = fg1, bg = bg },
-    BlinkCmpMenuBorder = { fg = blue, bg = bg },
-    BlinkCmpDocBorder = { fg = blue, bg = bg },
-    BlinkCmpSignatureHelpBorder = { fg = blue, bg = bg },
+    BlinkCmpMenu = { fg = fg1, bg = transparent(bg) },
+    BlinkCmpMenuBorder = { fg = blue, bg = transparent(bg) },
+    BlinkCmpDocBorder = { fg = blue, bg = transparent(bg) },
+    BlinkCmpSignatureHelpBorder = { fg = blue, bg = transparent(bg) },
     BlinkCmpMenuSelection = { fg = blue, bg = bg1, bold = true },
 
     BlinkCmpLabelMatch = { fg = blue, bg = "NONE" },

@@ -356,6 +356,7 @@ M.set_groups_hl = function(palette)
     MiniHipatternsHack = { fg = bg, bg = orange },
     MiniHipatternsTodo = { fg = bg, bg = blue },
     MiniHipatternsNote = { fg = bg, bg = fg1 },
+    MiniJump2dSpot = { fg = bg, bg = blue },
 
     -- Neogit.
     NeogitChangeDeleted = { fg = fg1, bg = transparent(bg) },

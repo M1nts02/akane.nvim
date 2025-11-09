@@ -440,6 +440,12 @@ M.set_groups_hl = function(palette)
     NotifyINFOBody = { fg = fg1, bg = transparent(bg) },
     NotifyDEBUGBody = { fg = fg1, bg = transparent(bg) },
     NotifyTRACEBody = { fg = fg1, bg = transparent(bg) },
+
+    -- Nvim-menu
+    NvimMenuNormal = { fg = fg2, bg = transparent(bg) },
+    NvimMenuKey = { fg = blue, bg = transparent(bg) },
+    NvimMenuFlag = { fg = fg, bg = transparent(bg) },
+    NvimMenuDesc = { fg = fg2, bg = transparent(bg) },
   }
 
   for group, parameters in pairs(groups) do

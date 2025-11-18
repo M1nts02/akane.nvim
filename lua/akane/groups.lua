@@ -349,7 +349,7 @@ M.set_groups_hl = function(palette)
 
     -- WhichKey.
     WhichKeyFloat = { fg = fg, bg = transparent(bg) },
-    WhichKeyBorder = { fg = fg2, bg = transparent(bg) },
+    WhichKeyBorder = { fg = blue, bg = transparent(bg) },
 
     -- Mini.nvim
     MiniHipatternsFixme = { fg = bg, bg = red },

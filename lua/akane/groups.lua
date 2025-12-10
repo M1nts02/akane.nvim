@@ -358,6 +358,12 @@ M.set_groups_hl = function(palette)
     MiniHipatternsNote = { fg = bg, bg = fg1 },
     MiniJump2dSpot = { fg = bg, bg = blue },
 
+    -- Snacks.nvim
+    SnacksDashboardHeader = { fg = cyan },
+    SnacksDashboardFooter = { fg = fg1 },
+    SnacksDashboardDesc = { fg = purple },
+    SnacksDashboardIcon = { fg = blue },
+
     -- Neogit.
     NeogitChangeDeleted = { fg = fg1, bg = transparent(bg) },
     NeogitDiffContextHighlight = { bg = bg1 },

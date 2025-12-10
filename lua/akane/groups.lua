@@ -400,9 +400,10 @@ M.set_groups_hl = function(palette)
     -- Fzf-lua
     FzfLuaHeaderBind = { fg = fg1, bg = transparent(bg) },
     FzfLuaHeaderText = { fg = fg1, bg = transparent(bg) },
-    FzfLuaBufNr = { fg = indian_red, bg = transparent(bg) },
+    FzfLuaBufNr = { fg = indian_red },
     FzfLuaBufLineNr = { fg = green, bg = transparent(bg) },
     FzfLuaBufName = { fg = blue, bg = transparent(bg) },
+    FzfLuaPathLineNr = { fg = green },
 
     -- Telescope
     TelescopeSelection = { fg = fg, bg = bg1 },

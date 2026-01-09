@@ -33,9 +33,11 @@ M.set_groups_hl = function(palette)
     FloatTitle = { fg = fg1, bg = transparent(bg) },
 
     Pmenu = { fg = fg1, bg = bg1 },
-    PmenuSel = { fg = fg, bg = bg2 },
+    PmenuSel = { fg = bg, bg = blue },
     PmenuSbar = { fg = fg, bg = bg2 },
     PmenuThumb = { fg = fg1, bg = transparent(bg1) },
+    PmenuMatch = { fg = indian_red },
+    PmenuMatchSel = { fg = indian_red },
 
     Question = { fg = blue },
     QuickFixLine = { fg = fg1, bold = true },
@@ -63,7 +65,7 @@ M.set_groups_hl = function(palette)
 
     WarningMsg = { fg = yellow },
     Whitespace = { fg = fg3, bg = transparent(bg) },
-    WildMenu = { fg = fg, bg = transparent(bg1) },
+    WildMenu = { fg = bg, bg = blue },
 
     WinBar = { fg = orange },
     WinBarNC = { fg = orange },

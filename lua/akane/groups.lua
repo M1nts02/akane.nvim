@@ -266,9 +266,9 @@ M.set_groups_hl = function(palette)
 
     -- Cmp.
     CmpItemAbbrDeprecated = { fg = fg1, bg = "NONE", strikethrough = true },
-    CmpItemAbbrMatch = { fg = blue, bg = "NONE", bold = true },
-    CmpItemAbbrMatchFuzzy = { fg = blue, bg = "NONE", bold = true },
-    CmpItemMenu = { fg = purple, bg = "NONE", italic = true },
+    CmpItemAbbrMatch = { fg = indian_red, bg = "NONE", bold = true },
+    CmpItemAbbrMatchFuzzy = { fg = indian_red, bg = "NONE", bold = true },
+    CmpItemMenu = { fg = purple, bg = bg, italic = true },
 
     CmpItemKindField = { fg = bg1, bg = indian_red },
     CmpItemKindProperty = { fg = bg1, bg = indian_red },
@@ -359,6 +359,7 @@ M.set_groups_hl = function(palette)
     MiniHipatternsTodo = { fg = bg, bg = blue },
     MiniHipatternsNote = { fg = bg, bg = fg1 },
     MiniJump2dSpot = { fg = bg, bg = blue },
+    MiniPickMatchRanges = { fg = indian_red },
 
     -- Snacks.nvim
     SnacksDashboardHeader = { fg = cyan },

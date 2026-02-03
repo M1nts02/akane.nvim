@@ -2,7 +2,7 @@ local M = {}
 
 M.set_terminal_hl = function(palette)
   vim.g.terminal_color_0 = palette.bg
-  vim.g.terminal_color_8 = palette.fg_idle
+  vim.g.terminal_color_8 = palette.bg2
 
   vim.g.terminal_color_1 = palette.red
   vim.g.terminal_color_9 = palette.red
@@ -14,7 +14,7 @@ M.set_terminal_hl = function(palette)
   vim.g.terminal_color_11 = palette.yellow
 
   vim.g.terminal_color_4 = palette.blue
-  vim.g.terminal_color_12 = palette.hlue
+  vim.g.terminal_color_12 = palette.blue
 
   vim.g.terminal_color_5 = palette.pink
   vim.g.terminal_color_13 = palette.pink

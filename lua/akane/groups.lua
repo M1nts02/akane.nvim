@@ -456,6 +456,11 @@ M.set_groups_hl = function(palette)
     NvimMenuKey = { fg = blue, bg = transparent(bg) },
     NvimMenuFlag = { fg = fg, bg = transparent(bg) },
     NvimMenuDesc = { fg = fg2, bg = transparent(bg) },
+
+    -- Avante
+    AvantePromptInputBorder = { link = "Normal" },
+    AvanteConflictCurrent = { fg = bg, bg = blue },
+    AvanteConflictIncoming = { fg = bg, bg = green },
   }
 
   for group, parameters in pairs(groups) do

@@ -461,6 +461,8 @@ M.set_groups_hl = function(palette)
     AvantePromptInputBorder = { link = "Normal" },
     AvanteConflictCurrent = { fg = bg, bg = blue },
     AvanteConflictIncoming = { fg = bg, bg = green },
+    AvanteConflictCurrentLabel = { fg = bg, bg = blue },
+    AvanteConflictIncomingLabel = { fg = bg, bg = green },
   }
 
   for group, parameters in pairs(groups) do

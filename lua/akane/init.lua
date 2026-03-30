@@ -20,7 +20,6 @@ M.load = function(theme)
 end
 
 M.setup = function(opts)
-  vim.validate { option = { opts, "t" } }
   options.transparent = opts.transparent or false
 end
 

@@ -32,10 +32,11 @@ M.set_groups_hl = function(palette)
     FloatBorder = { fg = blue, bg = transparent(bg) },
     FloatTitle = { fg = fg1, bg = transparent(bg) },
 
-    Pmenu = { fg = fg1, bg = bg1 },
+    Pmenu = { fg = fg, bg = transparent(bg) },
+    PmenuBorder = { fg = blue, bg = transparent(bg) },
     PmenuSel = { fg = bg, bg = blue },
-    PmenuSbar = { fg = fg, bg = bg2 },
-    PmenuThumb = { fg = fg1, bg = transparent(bg1) },
+    PmenuSbar = { fg = fg, bg = transparent(bg) },
+    PmenuThumb = { bg = blue },
     PmenuMatch = { fg = indian_red },
     PmenuMatchSel = { fg = indian_red },
 
